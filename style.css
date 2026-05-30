@@ -169,3 +169,25 @@ footer h3{
 .login-box button:hover{
     background:#5a3d2b;
 }
+
+.card{
+    cursor:pointer;
+}
+
+.detail-card{
+    background:white;
+    max-width:400px;
+    margin:20px auto;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+}
+
+.detail-card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.detail-card h3{
+    color:#6f4e37;
+}
