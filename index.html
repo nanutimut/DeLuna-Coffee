@@ -19,11 +19,28 @@
 
 <script>
 function login(){
+
     let user = document.getElementById("username").value;
     let pass = document.getElementById("password").value;
 
-    if(user=="Heri" && pass=="123"){
-        window.location.href="home.html";
+    const akun = [
+        {username:"Heri", password:"123"},
+        {username:"nania", password:"123"},
+        {username:"admin", password:"123"}
+    ];
+
+    let berhasil = false;
+
+    for(let i = 0; i < akun.length; i++){
+        if(user === akun[i].username &&
+           pass === akun[i].password){
+            berhasil = true;
+            break;
+        }
+    }
+
+    if(berhasil){
+        window.location.href = "home.html";
     }else{
         alert("Username atau Password salah!");
     }
