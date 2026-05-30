@@ -110,3 +110,62 @@ footer h3{
 .maps iframe{
     border-radius:12px;
 }
+
+/* LOGIN PAGE */
+
+.login-box{
+    width:350px;
+    margin:100px auto;
+    text-align:center;
+}
+
+.line{
+    height:2px;
+    background:white;
+    margin:30px 0;
+}
+
+.login-box h1{
+    color:#6f4e37;
+    font-size:40px;
+    font-weight:300;
+}
+
+.login-box p{
+    color:#6f4e37;
+    margin-bottom:30px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    width:100%;
+    padding:12px;
+    margin:15px 0;
+    border:none;
+    border-bottom:2px solid #6f4e37;
+    background:transparent;
+    outline:none;
+    box-sizing:border-box;
+}
+
+.remember{
+    display:block;
+    text-align:left;
+    color:#6f4e37;
+    margin-top:10px;
+}
+
+.login-box button{
+    width:100%;
+    padding:15px;
+    margin-top:20px;
+    border:none;
+    background:#6f4e37;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.login-box button:hover{
+    background:#5a3d2b;
+}
