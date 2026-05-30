@@ -239,11 +239,6 @@ footer h3{
     box-shadow:0 8px 20px rgba(0,0,0,0.2);
 }
 
-.dark .card{
-    background:#2d2d2d;
-    color:white;
-}
-
 .dark .about h2,
 .dark .menu h2,
 .dark .maps h2{
@@ -255,5 +250,10 @@ footer h3{
 }
 .dark{
     background:#1e1e1e;
+    color:white;
+}
+
+.dark .card{
+    background:#2d2d2d;
     color:white;
 }
