@@ -96,3 +96,17 @@ footer h3{
     cursor:pointer;
     font-weight:bold;
 }
+
+.maps{
+    padding:30px;
+    text-align:center;
+}
+
+.maps h2{
+    color:#6f4e37;
+    margin-bottom:15px;
+}
+
+.maps iframe{
+    border-radius:12px;
+}
